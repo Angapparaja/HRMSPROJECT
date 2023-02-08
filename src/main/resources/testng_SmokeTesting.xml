@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HRMSAutomationTest">
+    
+    <listeners>
+        <listener class-name="HRMSAutomationTest.ExtendReportListener.ExtentReporterNG"/>
+        <listener class-name="HRMSAutomationTest.util.ListenerTest"/>
+    </listeners>
+    
+    
+    <test name="HRMSAutomationTest">
+        <classes>
+        	<class name="HRMSAutomationTest.smoketesting.HrmsSmokeTest"/>
+        </classes>
+        
+    </test>
+    
+    
+    <!--   <listeners>
+        <listener class-name="com.hrms.ExtendReportListener.ExtentReporterNG"/>
+        <listener class-name="com.hrms.util.ListenerTest"/>
+    </listeners>
+    
+    
+    <test name="hrms Smoke Test Cases">
+        <classes>
+        	<class name="com.hrms.smoketesting.HrmsSmokeTest"/>
+        </classes>
+        
+    </test>
+
+ -->
+ 
+ </suite>

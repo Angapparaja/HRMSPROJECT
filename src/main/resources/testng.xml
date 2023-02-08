@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HRMSAutomationMasters">
+
+		<listeners>
+		<listener class-name="com.hrms.ExtendReportListener.ExtentReporterNG" />
+		<listener class-name="com.hrms.util.ListenerTest" />
+	</listeners>
+	<!---->
+	
+
+	<!--	<test name="HRMSAutomationMastersProple">
+
+		<classes>
+
+		 <class name="com.hrmsmasters.testcases.MasterGeoCountryTest" />
+			<class name="com.hrmsmasters.testcases.MasterGeoProvinceTest" />
+			<class name="com.hrmsmasters.testcases.MasterGeoCityTest" />	
+		   <class name="com.hrmsmasters.testcases.MasterGeoBarangayTest" />
+			<class name="com.hrmsmasters.testcases.MasterGeoWorkLocationTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterPersonalReligionTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalNationalityTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalLanguageTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalRelationshipTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalBloodGroupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalIdentificationProofTest" />
+			
+
+			<class name="com.hrmsmasters.testcases.MasterEducationQualificationTest" />
+			<class name="com.hrmsmasters.testcases.MasterEducationDegreeTest" />
+			<class name="com.hrmsmasters.testcases.MasterEducationCourseTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterPositionJobLevelTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionPositionTitleTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionBusinessUnitTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionDepartmentTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionSubDepartmentTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionCostCenterTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionPositionCategoryTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionMarketDesignationTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentConsultantTest" />
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentCompetenciesTest" />
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentEvaluationFormTest" />
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentSkillTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterAttendanceShiftTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceDayDescriptionTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceHolidayTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceWorkingTimeTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceCalenderTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceRateMasterTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceDailyRateComponentTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceAttentPolicyTest" />
+
+
+			<class name="com.hrmsmasters.testcases.MasterPayRollAccountMasterTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollComponentGroupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollComponentMasterTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollReportSetupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollJournalSetupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollPayrollGroupingTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollBankTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollBankBranchTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollCurrencyTest" />
+
+
+			<class name="com.hrmsmasters.testcases.MasterAssetsAssetItemsTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterStatutoryPhilHealthTest" />
+			<class name="com.hrmsmasters.testcases.MasterStatutorySocialSecuritySystemTest" />
+			<class name="com.hrmsmasters.testcases.MasterStatutoryPagIbIgTest" />
+			<class name="com.hrmsmasters.testcases.MasterStatutoryWithHoldingTaxTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterExitManagementSetupTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementExitTypeTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementNoduesTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementInterviewQuestionsTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterDocumentMasterDocumentMasterTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterLetterTemplateLetterTempTest" />
+		</classes>
+	</test> -->
+	
+	
+	<test name="HRMSAutomationCoreHrmsSelfcare">
+		<classes>
+			<class name="com.hrmscorehrmsselfcare.testcases.OverTimeObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.RestDayTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.FailuretimeinoutObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.OfficialBTObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.ShiftCodeObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.PermsnAplyObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.HolidayObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.ClaimObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.TakecompObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.OverTimeObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfRstDayObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfFailObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfObtObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfShftCodeObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfPermissionObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfClaimObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTakecompObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.AttendanceTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.RawlogObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.MissedPunchObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTeamotObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTeamRstdayObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTeamFailObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTeamOBTObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTeamSCObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.SlfTeamPermObjectsTest"></class>
+			<class name="com.hrmscorehrmsselfcare.testcases.TeamtakeCompobjectsTest"></class> 
+		</classes>
+	</test>
+	
+	
+		<test name="HRMSAutomationSettings">
+
+		<classes>
+
+			<class name="com.hrmssettings.testcases.SettingsGeneralSettingsMailSettingsTest" />
+
+		</classes>
+
+	</test> 
+	 
+
+ 	<test name="HRMSAutomationMastersIndiaTesting">
+
+		<classes>
+
+			<class name="com.hrmsmasters.testcases.MasterGeoCountryTest" />
+	        <class name="com.hrmsmasters.testcases.MasterGeoProvinceTest" />
+			<class name="com.hrmsmasters.testcases.MasterGeoCityTest" />
+			<class name="com.hrmsmasters.testcases.MasterGeoBarangayTest" />
+			<class name="com.hrmsmasters.testcases.MasterGeoWorkLocationTest" />
+
+		    <class name="com.hrmsmasters.testcases.MasterPersonalReligionTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalNationalityTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalLanguageTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalRelationshipTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalBloodGroupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPersonalIdentificationProofTest" />
+
+
+			<class name="com.hrmsmasters.testcases.MasterEducationQualificationTest" />
+			<class name="com.hrmsmasters.testcases.MasterEducationDegreeTest" />
+			<class name="com.hrmsmasters.testcases.MasterEducationCourseTest" /> 
+		
+			<class name="com.hrmsmasters.testcases.MasterPositionJobLevelTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionPositionTitleTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionBusinessUnitTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionDepartmentTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionSubDepartmentTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionCostCenterTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionCenterTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionPositionCategoryTest" />
+			<class name="com.hrmsmasters.testcases.MasterPositionMarketDesignationTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentConsultantTest" />
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentCompetenciesTest" />
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentEvaluationFormTest" />
+			<class name="com.hrmsmasters.testcases.MasterRecruitmentSkillTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterAttendanceShiftTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceDayDescriptionTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceHolidayTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceAttentPolicyTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceOTReasonTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceWeekOffPolicyTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceODReasonTest" />  
+			
+			<!--		<class name="com.hrmsmasters.testcases.MasterAttendanceFlexiHolidayPolicyTest" />
+			<class name="com.hrmsmasters.testcases.MasterAttendanceFlexiHolidayChangeTest" /> -->
+
+			 
+		 	<class name="com.hrmsmasters.testcases.MasterPayRollAccountMasterTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollComponentGroupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollComponentMaster2Test" />
+
+			<class name="com.hrmsmasters.testcases.MasterPayRollJournalSetupTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollPayrollGroupingTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayrollPaySlipTitleTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollBankTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollBankBranchTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayRollCurrencyTest" />
+			<class name="com.hrmsmasters.testcases.MasterPayrollHolidayWorkComponentTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterReimbursementSetupTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementReimbursementWindowTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementBillsTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementProcessTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementMonthlyPayListsTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementEmployeeListViewTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementEndPeriodPayListsTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementPayInPeriodTest" />
+			<class name="com.hrmsmasters.testcases.MasterReimbursementExcelReportTest" />
+
+
+			<class name="com.hrmsmasters.testcases.MasterStatutoryPFTest" />
+			<class name="com.hrmsmasters.testcases.MasterStatutoryESITest" />
+			<class name="com.hrmsmasters.testcases.MasterStatutoryPTTEST" />
+			<class name="com.hrmsmasters.testcases.MasterStatutoryLWFTEST" />
+			<class name="com.hrmsmasters.testcases.MasterStatutorySuperAnnuationTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterAssetsAssetItemsTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterExitManagementSetupTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementExitTypeTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementNoduesTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementInterviewQuestionsTest" />
+			<class name="com.hrmsmasters.testcases.MasterExitManagementGratuityTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterDocumentMasterDocumentMasterTest" />
+
+			<class name="com.hrmsmasters.testcases.MasterLetterTemplateLetterTempTest" />
+		</classes>
+
+	</test>
+
+
+	  <test name="HRMSAutomationStructure"> 
+         <classes>       
+			 <class name="com.hrmsstructure.testcases.StructureHierarchyRoleDescriptionTest" />
+			  <class name="com.hrmsstructure.testcases.StructureHierarchyPositionHistoryTest" /> 
+			  
+			  <class name="com.hrmsstructure.testcases.StructureRecruitmentSetupTest" /> 
+			  <class name="com.hrmsstructure.testcases.StructureRecruitmentMRFRaiseTest" />
+			  <class name="com.hrmsstructure.testcases.StructureRecruitmentMRFStatusTest" />
+			  <class name="com.hrmsstructure.testcases.StructureRecruitmentCvUploadTest" />
+			  <class name="com.hrmsstructure.testcases.StructureRecruitmentInternalPostingTest" />
+			    <class name="com.hrmsstructure.testcases.StructureRecruitmentCvRepositoryTest" />
+			     <class name="com.hrmsstructure.testcases.StructureRecruitmentCommunicationTest" />
+			     
+			     <class name="com.hrmsstructure.testcases.StructureInterviewSchedulingTest" />
+			      <class name="com.hrmsstructure.testcases.StructureInterviewStatusTest" />
+			       <class name="com.hrmsstructure.testcases.StructureInterviewSelectedTest" />
+			       <class name="com.hrmsstructure.testcases.StructureInterviewHistoryTest" /> 
+			       
+			        <class name="com.hrmsstructure.testcases.StructureManualProcessOfferUploadTest" /> 
+			        
+			        <class name="com.hrmsstructure.testcases.StructureOnBoardingProfileValidateTest" /> 
+			        <class name="com.hrmsstructure.testcases.StructureOnBoardingMoveToLiveTest" /> 
+			        <class name="com.hrmsstructure.testcases.StructureOnBoardingAppointmentLetterTest" /> 
+			         <class name="com.hrmsstructure.testcases.StructureOnBoardingPreCheckTest" /> 
+        </classes> 
+         </test> 
+
+
+
+
+
+		<test name="HRMSAutomationReports">
+
+		<classes>
+      
+		 	<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryProfileOverAllTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandProfileSalaryEmployeeProfileReportTest" />
+			<class name="com.hrmsreports.testcases.ReportStandProfileSalaryFamilyInsuranceReportTest" />
+			<class name="com.hrmsreports.testcases.ReportStandardProfileSalaryCurrentCTCTest" />
+			<class name="com.hrmsreports.testcases.ReportStandardProfileSalaryTerminatedEmployeesTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryResignedEmployeesTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryEndOfConTractTest" />
+			<class name="com.hrmsreports.testcases.ReportStandardProfileSalaryYearsOfServiceTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryRetirableTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryEmployeeMovementTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryCoeWithCompensationTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryCOEResignationTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryApplyResignationTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryExitInterviewTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryAuthorizationSignatoryTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardProfileSalaryHRLettersTest" />   
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardLeaveLeaveBalanceTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardLeaveLeaveSummaryTest" /> 
+			<class name="com.hrmsreports.testcases.ReportsStandardLeaveIndividualLeaveSummaryTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardLeaveLeaveStatusReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardLeaveForcedLeaveEncashTest" />
+			
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardAttandanceFiledFromTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardAttendanceAttendanceSummaryReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardAttendanceRawLogsTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardAttendancePunchGEOTaggingTest" />
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPayRegisterTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPaySlipTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollSalaryRegisterTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPayRollSummaryTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPFReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPTReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollESIReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollESIRemittanceTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollLWFReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPayrollReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayrollMonthlyBenefitReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayrollAnnualBenefitReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollVarianceAnalysisTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollErrorRepportTest" /> 
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollPayRegisterUploadTest" />
+		 	<class name="com.hrmsreports.testcases.ReportsStandardPayrollGrossCTCTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollYearlyReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayrollJournalEntryTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayRollLoanRegisterTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardPayrollLoanRegister2Test" />
+			
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardIncrementPromotionSalaryIncrementTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardIncrementPromoSalaryIncrementEntryExcelTest" />
+			<class name="com.hrmsreports.testcases.ReporsStandardIncrementPromoPromotionReportTest" />
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardArrearArrearExcelReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardArrearLateHoldExcelReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardArrearArrearPfReportTest" />
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardTDSTaxReportTest" />
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryRegisterOfWorkmenTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryMWFormVTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryWagesRegisterReportTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryWagesRegisterNewTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryMusterRollTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryForm12Test" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryForm15Test" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryForm1Test" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryFormVITest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryFormBTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryFormCTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStatutoryForm21Test" />
+			
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureRoleStatusTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructurePositionSummaryTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureDetailedPositionSummaryTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureMRFDetailsTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureSourcingTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureInterViewCandiateStatusTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureLeadTimeToHierTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureOfferStatusTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStructureRecruitmentPositionWiseConversionRateTest" />
+			<class name="com.hrmsreports.testcases.ReportsStandardStruturePreEmployeementCheckTest" /> 
+		</classes>
+
+	</test>  
+
+
+	 	<test name="HRMSAutomationCoreHrms">
+
+		<classes>
+
+			<class name="com.hrmscorehrms.testcases.CoreHrmsIncrementArrearsSalaryChangeTest" />
+			<class name="com.hrmscorehrms.testcases.CoreHrmsIncreArrearCurrencyMonthIncListTest" />
+			<class name="com.hrmscorehrms.testcases.CoreHrmsIncrementArrearsNewJoineeArrearTest" /> 
+			<class name="com.hrmscorehrms.testcases.CoreHrmsIncrementArrearsLOPReversalTest" />
+			<class name="com.hrmscorehrms.testcases.CoreHrmsIncrementArrearsIncrementUploadTest" />
+
+		</classes>
+
+	</test>
+
+
+
+		
+
+
+
+
+
+</suite>
