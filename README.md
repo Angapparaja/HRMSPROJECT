@@ -10,13 +10,22 @@
 <br/>
 <u class="spelling-error">PREREQUISITES</u>
 <br/>
-JAVA v11<br/>
-MAVEN <br/>
-SELENIUM 4.1<br/>
-TESTNG 7.4<br/>
+<ul>
+  <li>JAVA v11</li>
+  <li>MAVEN</li>
+  <li>SELENIUM 4.1</li>
+  <li>TESTNG 7.4</li>
+ <br/>
+</ul>
 <br/>
-<br/>
-Selenium - Browser automation framework<br/>
-Maven - Dependency management<br/>
-TestNG - Testing framework<br/>
-Extent - Reporting framework<br/>
+ <br/>
+
+<u class="spelling-error">REFERENCES</u><br/>
+<ul>
+  <li>Selenium - Browser automation framework</li>
+  <li>Maven - Dependency management</li>
+  <li>TestNG - Testing framework</li>
+  <li>Extent - Reporting framework</li>
+ <br/>
+</ul>
+
