@@ -7,7 +7,6 @@
   <li>File ->New --> Project --> Select Maven Project -> Import ->Choose File System -->  Navigate to the folder where you unzipped the zip Select the right project</li><br/>
 </ul>
 <br/>
-<br/>
 <u class="spelling-error">PREREQUISITES</u>
 <br/>
 <ul>
@@ -18,7 +17,6 @@
  <br/>
 </ul>
 <br/>
- <br/>
 
 <u class="spelling-error">REFERENCES</u><br/>
 <ul>
